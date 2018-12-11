@@ -1,0 +1,39 @@
+#mainNav {
+    .img-container{
+        position: absolute;
+        left: 100px;
+        width: 97px;
+
+        img {
+            width: 100%;
+        }
+    }
+    
+    .main-navbar{
+        display: flex;
+        justify-content: center;
+        background: #eee;
+    }
+
+    li {
+        padding: 20px 25px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .extra-links {
+        display: flex;
+        margin-left: 70px;
+    }
+
+    .help-link {
+        margin-left: 20px;
+    }
+
+    
+}
+
+
+

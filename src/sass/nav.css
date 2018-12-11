@@ -1,0 +1,20 @@
+#mainNav .main-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  background: #eee;
+}
+
+#mainNav li {
+  padding: 20px;
+}
+
+#mainNav a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=nav.css.map */
