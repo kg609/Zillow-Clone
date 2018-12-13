@@ -3,32 +3,34 @@ import zillowIcon from '../images/zillow-icon.png';
 
 const Navbar = () => {
      return (
-         <nav id="mainNav">
+         <div>  
+            <nav id="mainNav">
+                <ul className="navbar">
+                    <li><a href="placeholder">Buy</a></li>
+                    <li><a href="placeholder">Rent</a></li>
+                    <li><a href="placeholder">Sell</a></li>
+                    <li><a href="placeholder">Mortgages</a></li>
+                    <li><a href="placeholder">Agent finder</a></li>
+                    <li><a href="placeholder">More</a></li>
+                </ul>
+
+
+                <ul className="extra-links">
+                <li><a href="placeholder">List your rental</a></li>
+                <li><a href="placeholder">Advertise</a></li>
+                <li><a href="placeholder">Sign in</a></li>
+                    <li>or</li>
+                <li><a href="placeholder">Join</a></li>
+                <span className="help-link">
+                    <li><a href="placeholder">Help</a></li>
+                </span>
+                </ul>
+            </nav>
+            
             <div className="img-container">
                 <img src={zillowIcon} alt="Zillow Logo" />
-            </div>
-             <ul className="main-navbar">
-                 <li><a href="placeholder">Buy</a></li>
-                 <li><a href="placeholder">Rent</a></li>
-                 <li><a href="placeholder">Sell</a></li>
-                 <li><a href="placeholder">Mortgages</a></li>
-                 <li><a href="placeholder">Agent finder</a></li>
-                 <li><a href="placeholder">More</a></li>
-
-                 <ul className="extra-links">
-                    <li>links</li>
-                    <li>links</li>
-                    <li>links</li>
-                        <span className="text">or</span>
-                    <li>links</li>
-                    <span className="help-link">
-                        <li>links</li>
-                    </span>
-                 </ul>
-                 
-             </ul>
-                    
-         </nav>
+            </div>  
+         </div>
      );
 };
 
