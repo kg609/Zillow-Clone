@@ -1,10 +1,15 @@
+
+
 .HomePageImgs {
     
+
     h1 {
         text-align: center;
         font-size: 3.5rem;
         letter-spacing: 1px;
-        margin: 80px 0 0 0;
+        margin: 60px 0 0 0;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
     }
 
     .CTA-Links {
@@ -13,18 +18,30 @@
        padding: 20px;
 
        li {
-           padding: 10px 50px;
-           border: 1px solid black;
-           font-size: 1.5rem;
+           padding: 15px 55px;
+           border: 1px solid #FFF;
+           font-size: 1.3rem;
+           font-family: 'Lato', sans-serif;
            text-align: center;
        }
 
+       .active {
+           background: #2F64B0;
+           opacity: .9;
+       }
+
        li:nth-of-type(4){
-           padding: 10px 20px;
+           padding: 15px 25px;
        }
 
        a {
            text-decoration: none;
+           color: #fff;
+       }
+
+       li:hover {
+           opacity: .8;
+           background: #2F64B0;
        }
         
     }
@@ -34,20 +51,47 @@
         justify-content: center; 
 
         input[type=text] {
-            width: 525px;
-            padding: 20px;
+            width: 565px;
+            padding: 20px 20px;
             border: 1px solid #ccc;
-            border-radius: 4px;
+            border-radius: 8px;
+            font-size: 1.1rem;
         }
 
         .search-button{
             position: absolute;
-            top: 390px;
-            right: 450px;
-            width: 4.4rem;
-            border-radius: 4px;
-            padding: 10px 40px;
+            top: 370px;
+            right: 425px;
+            width: 100px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            background: #4B8FE2;
+            color: #fff;
+            font-size: 1.2rem;
             
+        }
+    }
+
+    .banner {
+        display: flex;
+        justify-content: flex-start;
+        margin: 250px 0 0 0;
+        height: 60px;
+        background: #263857;
+        opacity: .9;
+
+        .fa-users {
+            color: #FFF;
+            margin: 15px 20px 0 80px;
+        }
+
+        h4 {
+            color: #FFF;
+            margin: 20px 0 0 0;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .start-Btn {
         }
     }
 }

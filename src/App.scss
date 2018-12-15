@@ -2,3 +2,11 @@
 @import './sass/nav.scss';
 @import './sass/search-bar.scss';
 
+body {
+    background-image: url('https://expo.advance.net/img/93fa2b73cc/width960/93c_3718huntingrunrd.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
