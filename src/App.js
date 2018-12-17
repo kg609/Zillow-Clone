@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
-import SearchBar from './components/Search-Bar';
+import SearchBar from './components/SearchBar';
+import ItemList from './components/ItemList';
 import './App.scss';
 
 class App extends Component {
   render() {
     return (
       <div className="container ">
-        <Navbar />
-        <SearchBar />
+        <div className="bckImg">
+          <Navbar />
+          <SearchBar />
+        </div>
+        
+        <ItemList />
       </div>
     );
   }

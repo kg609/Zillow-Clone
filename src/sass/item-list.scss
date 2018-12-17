@@ -1,0 +1,27 @@
+.grid-container {
+    display: grid;
+    /*border: 5px solid red;*/
+
+    .links-title {
+        font-size: 1rem;
+        font-family: 'Lato', 'sans-serif';
+        margin: 20px;
+    }
+
+    .links-list {
+        li {
+            margin: 10 20px;
+            font-size: .9;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4C4C4C;
+        }
+
+        a:hover {
+            color: #3277DD;
+        }
+    }
+
+}

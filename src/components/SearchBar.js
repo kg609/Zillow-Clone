@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class SearchBar extends React.Component {
+class SearchBar extends Component {
     
     render(){
         return (
@@ -20,9 +20,9 @@ class SearchBar extends React.Component {
                 </form>
 
                 <section className="banner">
-                    <i class="fa fa-users fa-2x" aria-hidden="true"></i>
+                    <i className="fa fa-users fa-2x" aria-hidden="true"></i>
                     <h4>Be ready to buy Get pre-qualified by a local lender on zillow.</h4>
-                    <button className="start-Btn">Get Started</button>
+                    <button className="get-started-Btn"><a href="placeholder">Get Started</a></button>
                 </section>
             </div>
         );
