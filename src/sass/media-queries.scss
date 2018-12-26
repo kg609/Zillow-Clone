@@ -1,0 +1,102 @@
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+
+    .arrow-left {
+        position: absolute;
+        top: 20px;
+        left: 5px;
+        width: 0; 
+        height: 0; 
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent; 
+        border-right:8px solid #0074e4; 
+    }
+
+    .img-container {
+        position: static;
+        margin: 10px 20px;
+        width: 10%;
+    }
+
+    .navbar,.extra-links {
+        li {
+            display: none;
+        }
+    }
+
+    .HomePageImgs {
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .CTA-Links {
+            margin-right: 15px;
+
+            li {
+                font-size: 1rem;
+                padding: 13px 30px;
+            }
+
+            li:nth-of-type(4){
+                padding: 13px 14px;
+            }
+        }
+
+        .searchForm {
+            margin-right: 15px;
+
+            input[type=text] {
+                width: 87%;
+                font-size: 1rem;
+            }
+
+            .arrow-up {
+                position: absolute;
+                top: 215px;
+                left: 40px;
+                width: 0; 
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-bottom: 15px solid #fff;
+            }
+
+            .search-button {
+                display: none;
+            }
+
+            .fa-search {
+                display: block;
+                position: absolute;
+                right: 30px;
+                padding-top: 20px;
+                font-size: 1rem;
+                color: #4B8FE2;
+            }
+        }
+
+        .banner {
+            display: none;
+        }
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .footer-container, footer {
+        height: 300px;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    
+  }

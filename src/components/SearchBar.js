@@ -9,7 +9,9 @@ import React, { Component } from 'react';
 }*/
 
 class SearchBar extends Component {
-    state = {url: ''};
+    state = {
+        url: ''
+    };
 
     changeImage = (event) => {
         console.log(event.target.value);
@@ -31,6 +33,7 @@ class SearchBar extends Component {
                     <div className="arrow-up"></div>
                     <input type="text" placeholder="Enter an address neighborhood, city, or ZIP code" name="search"/>
                     <button type="submit" className="search-button">Search</button>
+                    <i className="fa fa-search "></i>
                 </form>
 
                 <section className="banner">

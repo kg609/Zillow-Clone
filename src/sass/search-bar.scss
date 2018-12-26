@@ -70,7 +70,7 @@
 
         .search-button{
             position: absolute;
-            top: 370px;
+            top: 365px;
             right: 425px;
             width: 100px;
             padding: 10px 20px;
@@ -79,6 +79,10 @@
             color: #fff;
             font-size: 1.2rem;
             
+        }
+
+        .fa-search {
+            display: none;
         }
     }
 
@@ -118,9 +122,9 @@
         }
         .get-started-Btn:hover {
             background: #1e5799; /* Old browsers */
-background: -moz-linear-gradient(top, #1e5799 61%, #1f71a8 98%, #7db9e8 99%, #0283e5 100%, #0082e5 101%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #1e5799 61%,#1f71a8 98%,#7db9e8 99%,#0283e5 100%,#0082e5 101%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #1e5799 61%,#1f71a8 98%,#7db9e8 99%,#0283e5 100%,#0082e5 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            background: -moz-linear-gradient(top, #1e5799 61%, #1f71a8 98%, #7db9e8 99%, #0283e5 100%, #0082e5 101%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #1e5799 61%,#1f71a8 98%,#7db9e8 99%,#0283e5 100%,#0082e5 101%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #1e5799 61%,#1f71a8 98%,#7db9e8 99%,#0283e5 100%,#0082e5 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         }
     }
 }

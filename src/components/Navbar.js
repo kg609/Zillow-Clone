@@ -26,7 +26,8 @@ const Navbar = () => {
                 </span>
                 </ul>
             </nav>
-            
+
+            <div className="arrow-left"></div>   
             <div className="img-container">
                 <img src={zillowIcon} alt="Zillow Logo" />
             </div>  

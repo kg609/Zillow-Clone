@@ -37,9 +37,9 @@ const Footer = () => {
                     <i className="fa fa-home fa-2x"></i>
                     <li>&copy; 2006-2019 Zillow</li>
                     <li>Follow us</li>
-                    <a href="www.facebook.com"><i className="fa fa-facebook-square fa-2x social-media-icon "></i></a>
-                    <a href="www.twitter.com"><i className="fa fa-twitter-square fa-2x social-media-icon "></i></a>
-                    <a href="www.googleplus.com"><i className="fa fa-google-plus-square fa-2x social-media-icon "></i></a>
+                    <a href="https://www.facebook.com/Zillow"><i className="fa fa-facebook-square fa-2x social-media-icon "></i></a>
+                    <a href="https://twitter.com/zillow"><i className="fa fa-twitter-square fa-2x social-media-icon "></i></a>
+                    <a href="https://plus.google.com/+Zillow"><i className="fa fa-google-plus-square fa-2x social-media-icon "></i></a>
                 </ul>
             </footer>
         </div>
