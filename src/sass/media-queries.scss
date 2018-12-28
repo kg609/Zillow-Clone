@@ -1,6 +1,10 @@
 /* For mobile phones: */
 @media only screen and (max-width: 600px) {
 
+    .bckImg {
+        height: 500px;
+    }
+
     .arrow-left {
         position: absolute;
         top: 20px;
@@ -12,16 +16,34 @@
         border-right:8px solid #0074e4; 
     }
 
+
     .img-container {
         position: static;
         margin: 10px 20px;
-        width: 10%;
+        width: 40px;
     }
 
     .navbar,.extra-links {
         li {
             display: none;
         }
+    }
+
+    .modal {
+        height: 100vh;
+        background: #fff;
+        opacity: .9;
+
+        h2 {
+            
+        }
+
+        .Dropdown-menu {
+            border: 1px solid black;
+            height: 50px;
+            width: 250px;
+        }
+
     }
 
     .HomePageImgs {
