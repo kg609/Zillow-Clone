@@ -7,7 +7,7 @@
 
     .arrow-left {
         position: absolute;
-        top: 20px;
+        top: 15px;
         left: 5px;
         width: 0; 
         height: 0; 
@@ -19,8 +19,20 @@
 
     .img-container {
         position: static;
-        margin: 10px 20px;
-        width: 40px;
+        margin: 0 20px 0;
+        padding: 5px 0;
+        width: 35px;
+        height: 35px;
+
+        a {
+            position: relative;
+            left: 50px;
+            bottom: 30px;
+            color: #0074e4;
+            font-family: 'Lato', sans-serif;
+            display: inline;
+            text-decoration: none;
+        }
     }
 
     .navbar,.extra-links {
@@ -34,14 +46,35 @@
         background: #fff;
         opacity: .9;
 
-        h2 {
-            
-        }
-
         .Dropdown-menu {
-            border: 1px solid black;
-            height: 50px;
-            width: 250px;
+            height: 340px;
+            box-shadow: 0 -3px 3px -3px #333;
+            
+            .Dropdown-list {
+                border-top: 3px solid #0074e4;
+                width: 250px;
+
+                .CTA-Links {
+                    font-display: 'Lato', sans-serif;
+                    
+                }
+
+                .advertise-link {
+                    float: right;
+                    font-display: 'Lato', sans-serif;
+                    padding-right: 10px;
+                }
+    
+                li {
+                    width: 250px;
+                    padding: 15px 0px;
+                    border-bottom: 1px solid #333;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+            }
         }
 
     }

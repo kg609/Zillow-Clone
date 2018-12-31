@@ -5,7 +5,7 @@ class Navbar extends React.Component {
         super();
 
         this.state = {
-            showMenu: true,
+            showMenu: false,
         }
     }
 
@@ -13,7 +13,7 @@ class Navbar extends React.Component {
        event.preventDefault();
 
        this.setState({
-           showMenu: false,
+           showMenu: true,
        });
     }
 
@@ -21,7 +21,7 @@ class Navbar extends React.Component {
         event.preventDefault();
 
         this.setState({
-            showMenu: true,
+            showMenu: false,
         })
     }
     
@@ -29,8 +29,40 @@ class Navbar extends React.Component {
         return (
             <div>
                 {
-                    this.state.showMenu
-                        ? (
+                    this.state.showMenu ? 
+                    (
+                        console.log(this.state.showMenu),
+                        <div className="modal">
+                                <div className="arrow-left" onClick={this.closeMenu}></div>   
+                                <div className="img-container" onClick={this.closeMenu}>
+                                    <img src={zillowIcon} alt="Zillow Logo" />
+                                    <a  className="" href="placeholder">Homepage</a>
+                                </div>
+                                <div className="Dropdown-menu" onClick={this.closeMenu}>
+                                    <ul className="Dropdown-list">
+                                        <li className="CTA-links"><a href="placeholder">Sign in</a> or <a href="placeholder">Join</a>
+                                            <a className="advertise-link" href="placeholder">Advertise</a>
+                                            
+                                        </li>
+                                        <li>Link 1</li>
+                                        <li>Link 1</li>
+                                        <li>Link 1</li>
+                                        <li>Link 1</li>
+                                        <li>Link 1</li>
+                                    </ul>
+                                </div>
+                        </div> 
+                    )
+                    : (
+                        <div>
+                        <div className="arrow-left" onClick={this.showMenu}></div>   
+                            <div className="img-container" onClick={this.showMenu}>
+                                <img src={zillowIcon} alt="Zillow Logo" />
+                            </div>
+                        </div> 
+                    )
+
+                        /* Desktop navbar
                         <div>  
                             <nav id="mainNav">
                                 <ul className="navbar">
@@ -75,7 +107,7 @@ class Navbar extends React.Component {
                                     </ul>
                                 </div>
                             </div>
-                        )
+                        )*/
                 }
 
             </div>      
