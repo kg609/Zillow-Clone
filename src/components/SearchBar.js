@@ -22,19 +22,21 @@ class SearchBar extends Component {
             <div className="HomePageImgs">
                 <h1>Find your way home</h1>
 
-                <ul className="CTA-Links">
-                    <li className="active"><a href="placeholder">Buy</a></li>
-                    <li onClick={this.changeImage}><a href="placeholder">Rent</a></li>
-                    <li><a href="placeholder">Sell</a></li>
-                    <li><a href="placeholder">Zestimate</a></li>
-                </ul>
+                <div className="search-container">
+                    {/* <ul className="CTA-Links">
+                        <li className="active"><a href="placeholder">Buy</a></li>
+                        <li onClick={this.changeImage}><a href="placeholder">Rent</a></li>
+                        <li><a href="placeholder">Sell</a></li>
+                        <li><a href="placeholder">Zestimate</a></li>
+                    </ul> */}
 
-                <form className="searchForm">
-                    <div className="arrow-up"></div>
-                    <input type="text" placeholder="Enter an address neighborhood, city, or ZIP code" name="search"/>
-                    <button type="submit" className="search-button">Search</button>
-                    <i className="fa fa-search "></i>
-                </form>
+                    <form className="searchForm">
+                        {/* <div className="arrow-up"></div> */}
+                        <input type="text" placeholder="Enter an address neighborhood, city, or ZIP code" name="search"/>
+                        <button type="submit" className="search-button">Search</button>
+                        <i className="fa fa-search "></i>
+                    </form>
+                </div>
             </div>
         );
     };

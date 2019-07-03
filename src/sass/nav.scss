@@ -1,28 +1,32 @@
 .img-container{
-    position: relative;
-    bottom: 60px;
+    position: absolute;
+    top: 0;
     left: 100px;
     width: 98px;
 
     img {
         width: 100%;
     }
+
+    .mobile-logo {
+        display: none;
+    }
 }
 
 #mainNav {
     background: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     /*border: 1px solid black;*/
     
     .navbar{
         display: flex;
-        justify-content: center;
+        // justify-content: center;
         /*border: 1px solid blue;*/
         margin-left: 40px;
 
         li {
-            padding: 15px 27px;
+            padding: 15px 5px;
             font-family: 'Lato', sans-serif;
             font-size: 1rem;
             letter-spacing: 1px;
@@ -42,8 +46,8 @@
 
     .extra-links {
         display: flex;
-        margin-left: 70px;
-        border: 1px border red;
+        // margin-left: 70px;
+        // border: 1px solid red;
 
 
         li {
